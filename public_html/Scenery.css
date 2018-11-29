@@ -1,0 +1,248 @@
+/*
+* @Author: Marte
+* @Date:   2018-04-07 14:41:22
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-04-28 00:06:15
+*/
+body {
+}
+/* background color */
+#background {
+background-color:#99CCCC;
+height:2430px;
+margin-top:0px;
+}
+
+
+div.menuback {
+    background-color: #FFCC99;
+    position:absolute;
+    width:1440px;
+    top:0px;
+    height: 70px;
+    margin-left: 35px;
+    border-radius: 6px;
+}
+
+
+/* class stars properties */
+div.stars{
+    position:absolute;
+    top:100px;
+    left:50px;
+    float:left;
+    width:550px;
+}
+/* class stars image properties */
+div.stars img {
+    position:absolute;
+    top:60px;
+    left:680px;
+    width:135%;
+}
+/* class stars text properties */
+div.starintro {
+    position:absolute;
+    border-radius:5%;
+    top:60px;
+    margin-left: 10px;
+    padding:42px 35px 48px 35px;
+    background-color:#FFCC99;
+    font-size:16px;
+    width:580px;
+}
+div.stars:hover {
+    border: 1px solid #FFCC99;
+    color: #6699CC;
+}
+/* class floriade properties */
+div.floriade {
+    position:absolute;
+    left:50px;
+    width:550px;
+    top:350px;
+}
+/* class floriade image properties */
+div.floriade img{
+    position: absolute;
+    top:200px;
+    width:130%;
+    margin-left: 10px;
+}
+/* class floriade text properties */
+div.floriadeintro {
+    position:absolute;
+    border-radius:5%;
+    top:200px;
+    left:750px;
+    background-color:#FFCC99;
+    font-size:16px;
+    width:580px;
+    padding: 15px 45px 25px 45px;
+}
+div.floriade:hover {
+    border: 1px solid #FFCC99;
+    color: #006699;
+}
+
+/* class light properties */
+div.light {
+    position: absolute;
+    width:550px;
+    top:960px;
+    left:50px;
+}
+/* class light image properties */
+div.light img{
+    position:absolute;
+    left: 520px;
+    top:0px;
+    width:100%;
+}
+/* class light text1 properties */
+div.lightintro {
+    position:absolute;
+    border-radius:5%;
+    left: 10px;
+    top:0px;
+    width:410px;
+    background-color:#FFCC99;
+    font-size:16px;
+    padding: 10px 35px 20px 35px;
+}
+/* class light text2 properties */
+div.lightintro2 {
+    background-color: #FFCC99;
+    border-radius:5%;
+    font-size:16px;
+    padding:40px 15px 55px 11px;
+    border-radius:5%;
+    position: absolute;
+    top:0px;
+    width:300px;
+    left:1095px;
+}
+div.light:hover {
+    border: 1px solid #FFCC99;
+    color: #6699CC;
+}
+
+/* class balloon properties */
+div.balloon {
+    position: absolute;
+    width:550px;
+    top:1320px;
+    left:50px;
+}
+div.balloonintro {
+    position:absolute;
+    border-radius:5%;
+    left: 10px;
+    top:0px;
+    width:590px;
+    background-color:#FFCC99;
+    font-size:16px;
+    padding: 25px 35px 30px 35px;
+}
+div.balloon img{
+    position:absolute;
+    left: 710px;
+    top:0px;
+    width:130%;
+}
+div.balloon:hover {
+    border: 1px solid #FFCC99;
+    color: #006699;
+}
+
+/* class ski properties */
+div.ski {
+    position: absolute;
+    width:550px;
+    top:1700px;
+    left:50px;
+}
+div.img1 {
+    position:absolute;
+    top:0px;
+    width:70%;
+    left:10px;
+}
+div.img2 {
+    position:absolute;
+    top:0px;
+    width:55%;
+    left:1125px;
+}
+div.skiintro {
+    background-color: #FFCC99;
+    font-size:16px;
+    padding:12px 18px 12px 15px;
+    border-radius:5%;
+    position: absolute;
+    top:0px;
+    width:410px;
+    left:650px;
+}
+div.ski:hover {
+    border: 1px solid #FFCC99;
+    color: #6699CC;
+}
+
+/* class openair properties */
+div.openair {
+    position: absolute;
+    width:550px;
+    top:2020px;
+    left:50px;
+}
+div.openairintro {
+    background-color: #FFCC99;
+    font-size:16px;
+    padding:22px 18px 22px 15px;
+    border-radius:5%;
+    position: absolute;
+    top:0px;
+    width:550px;
+    left:850px;
+}
+div.openair img{
+    position:absolute;
+    top:0px;
+    width:150%;
+    left:10px;
+}
+div.openair:hover {
+    border: 1px solid #FFCC99;
+    color: #006699;
+}
+
+/* sitemap part on the bottom */
+#table {
+    position:absolute;
+    top:2435px;
+    margin-left: 50px;
+    width:40%;
+    border-radius:6px;
+    padding:5px;
+    font-size: 17px;
+    text-align:left;
+}
+#table a {
+    text-decoration:none;
+}
+#table a:link {
+    color: #6699CC;
+}
+
+/* visited link */
+#table a:visited {
+    color: #006699;
+}
+#table a:hover {
+    color: #FFCC99;
+}
+
+#table2 {
+  width:800px;
+}

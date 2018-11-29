@@ -1,0 +1,222 @@
+body {
+    background-color:rgb(220,240,255);
+}
+
+/* RSS positon and decoration */
+div.RSS1{
+    position: absolute;
+    top: 150px;
+    width:800px;
+    left: 610px;
+    border: 1px solid #777;
+    padding:15px 10px 0px 10px;
+    margin-bottom: 30px;
+}
+
+.RSS1 a {
+    text-decoration:none;
+}
+.RSS1 a:link {
+    color: #6699CC;
+}
+/* visited link */
+.RSS1 a:visited {
+    color: #006699;
+}
+.RSS1 a:hover {
+    color: #FFCC99;
+}
+
+/*socialbutton positon and decoration */
+.socialbutton img {
+width: 35px;
+padding: 5px;
+border: 0;
+display: inline;
+}
+
+/* sitemap in the bottom line */
+div.siteback {
+    position:absolute;
+    text-decoration:none;
+    width:1440px;
+    top:857px;
+    height: 20px;
+    margin-left: 35px;
+    border-radius: 6px;
+}
+/* sitemap table */
+#table {
+    position:absolute;
+    top:1500px;
+    margin-left: 50px;
+    width:40%;
+    border-radius:6px;
+    padding:5px;
+    font-size: 17px;
+    text-align:left;
+}
+#table a {
+    text-decoration:none;
+}
+#table a:link {
+    color: #6699CC;
+}
+/* visited link */
+#table a:visited {
+    color: #006699;
+}
+#table a:hover {
+    color: #FFCC99;
+}
+
+/* right hand side menu bar */
+#rightmenu {
+    background-color: rgb(255,240,240);
+    color:black;
+    position:fixed;
+    top:80px;
+    margin-top: 85px;
+    margin-left: 10px;
+    width:160px;
+    border-radius:6px;
+    padding:1px 27px 17px 27px;
+    font-size: 18px;
+    text-align:left;
+}
+#rightmenu a {
+    text-decoration:none;
+}
+#rightmenu a:link {
+    color: #6699CC;
+}
+
+/* visited link */
+#rightmenu a:visited {
+    color: black;
+}
+#rightmenu a:hover {
+    color: yellow;
+}
+
+/* creativity */
+.container {
+    position: absolute;
+    top:150px;
+    left:30px;
+    border-radius:50%;
+    width: 375px;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(255,200,225), #ccc);
+
+}
+
+
+#creativity_des{
+    position: absolute;
+    top: 500px;
+    width:550px;
+    left: 10px;
+    border: 1px solid #777;
+    padding:0px 10px 0px 10px;
+    margin-bottom: 30px;
+}
+
+
+/* creativity posion  and decoration */
+.wave,
+.wave1,
+.wave2 {
+    position: absolute;
+    bottom: -60%;
+    width: 375px;
+    height: 375px;
+    background-color: hsla(196, 100%, 53%, .95);
+    border-radius: 45%;
+    animation: rotate 6s linear infinite;
+}
+
+.wave1 {
+    background-color: hsla(196, 100%, 53%, .94);
+    transform: translate(-20%, 0) rotate(0deg);
+    animation: rotate1 6s linear -4s infinite;
+}
+
+.wave2 {
+    background-color: hsla(196, 100%, 53%, .93);
+    transform: translate(20%, 0) rotate(0deg);
+    animation: rotate2 6s linear -2s infinite;
+}
+
+@keyframes rotate {
+    50% {
+        border-radius: 38%;
+        transform: rotate(180deg);
+    } 100% {
+        border-radius: 45%;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate1 {
+    50% {
+        border-radius: 38%;
+        transform: translate(-30%, 8%) rotate(180deg);
+    }100% {
+        border-radius: 45%;
+        transform: translate(-20%, 0%) rotate(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    50% {
+        transform: translate(30%, 8%) rotate(180deg);
+    }100% {
+        transform: translate(20%, 0%) rotate(360deg);
+    }
+}
+
+/* creativity outside box*/
+.container {
+    position: absolute;
+    top:150px;
+    left:30px;
+    border-radius:50%;
+    width: 375px;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(255,200,225), #ccc);
+}
+
+/* creativity description */
+#creativity_des{
+    position: absolute;
+    top: 500px;
+    width:550px;
+    left: 10px;
+    border: 1px solid #777;
+    padding:0px 10px 0px 10px;
+    margin-bottom: 30px;
+}
+
+
+/* validation part */
+.validation {
+    position:absolute;
+    left:10px;
+    top:700px;
+    border: 1px solid #777;
+    padding: 5px 10px 5px 10px;
+}
+#validationdes{
+    position: absolute;
+    top: 1350px;
+    width:550px;
+    left: 10px;
+    border: 1px solid #777;
+    padding:0px 10px 0px 10px;
+    margin-bottom: 30px;
+}

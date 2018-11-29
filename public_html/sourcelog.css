@@ -1,0 +1,86 @@
+body {
+}
+
+/* background is blue, cover the whole page */
+#background {
+  background-color: #99CCFF;
+  background-size: cover;
+  height:780px;
+}
+
+
+div.menuback {
+  background-color: white;
+  position:absolute;
+  width:1440px;
+  top:0px;
+  height: 70px;
+  margin-left: 35px;
+  border-radius: 6px;
+}
+
+
+
+/* sourcelog part  */
+div.sourcelog {
+  position:absolute;
+  top:200px;
+  left:100px;
+  font-size: 16px;
+  text-align:left;
+  width:1100px;;
+}
+#sourcelog a {
+  text-decoration:none;
+}
+#sourcelog a:link {
+  color: black;
+}
+/* visited link */
+#sourcelog a:visited {
+  color: #006699;
+}
+#sourcelog a:hover {
+  color: #FFCC99;
+}
+
+/* unbrella image */
+div.image1 {
+  position: absolute;
+  top: 570px;
+  left:30px;
+  width:1300px;
+}
+
+/* beachcar image */
+div.image2 {
+  position:absolute;
+  top:600px;
+  left: 1200px;
+  width:500px;
+}
+
+/* sitemap in the bottom */
+#table2 {
+  position:absolute;
+  top:800px;
+  margin-left: 50px;
+  width:40%;
+  border-radius:6px;
+  padding:5px;
+  font-size: 17px;
+  text-align:left;
+}
+#table2 a {
+  text-decoration:none;
+}
+#table2 a:link {
+  color: #6699CC;
+}
+/* visited link */
+#table2 a:visited {
+  color: #006699;
+}
+#table2 a:hover {
+  color: #FFCC99;
+}

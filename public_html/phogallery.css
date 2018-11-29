@@ -1,0 +1,215 @@
+
+body{
+    background-color: black;
+}
+div.menuback {
+    background-color: #FFCC99;
+    position:absolute;
+    width:1440px;
+    top:0px;
+    height: 70px;
+    margin-left: 35px;
+    border-radius: 6px;
+}
+
+div.imagemap {
+    position: absolute;
+    max-height:0px;
+    margin-top:200px;
+    margin-left:40px;
+}
+div.imagemap img {
+    width: 640px;
+}
+
+.imagemap a {
+    text-decoration: none;
+}
+.imagemap a:link {
+    color: #FFCC99;
+}
+
+/* visited link */
+.imagemap a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.imagemap a:hover {
+    color: #CCCCFF;
+}
+
+div.storyboard {
+    position: absolute;
+    max-height:0px;
+    margin-top:75px;
+    left:700px;
+
+}
+.storyboard img {
+    width: 390px;
+    height:370px;
+}
+.video123 {
+  position: absolute;
+  margin-top:200px;
+  left:1100px;
+}
+
+div.gallery {
+    position:relative;
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 344px;
+    top: 620px;
+    left:40px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+.gallery a {
+    text-decoration: none;
+}
+.gallery a:link {
+    color: #FFCC99;
+}
+
+/* visited link */
+.gallery a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.gallery a:hover {
+    color: #CCCCFF;
+}
+
+
+/* sitemap part on the bottom */
+#table {
+    position:relative;
+    max-height: 0px;
+    top:650px;
+    margin-top: 0px;
+    margin-left: 50px;
+    width:40%;
+    border-radius:6px;
+    padding:0px;
+    font-size: 17px;
+    text-align:left;
+}
+#table a {
+    text-decoration:none;
+}
+#table a:link {
+    color: #FFCC99;
+}
+
+/* visited link */
+#table a:visited {
+    color: #FFCC99 ;
+}
+#table a:hover {
+    color: #6699CC;
+}
+
+#table2 {
+  width:800px;
+}
+.storyboard {
+    position:absolute;
+    max-height:0px;
+    top:140px;
+    width: 200px;
+}
+#Scedes {
+    position:absolute;
+    top:220px;
+    left:640px;
+    font-size:10px;
+}
+#Scedes a {
+    text-decoration: none;
+}
+
+/* visited link */
+ #Scedes a:visited {
+     color: white;
+ }
+
+#picdes {
+    position:absolute;
+    top:390px;
+    left:640px;
+    font-size:10px;
+}
+#picdes a {
+    text-decoration: none;
+}
+
+/* visited link */
+ #picdes a:visited {
+     color: white;
+ }
+#stode {
+    position:absolute;
+    top:490px;
+    left:640px;
+    font-size:10px;
+}
+#stode a {
+    text-decoration: none;
+}
+
+/* visited link */
+ #stode a:visited {
+     color: white;
+ }
+
+
+/* .video123 {
+  position: fixed;
+  top:100px;
+  left: 1300px;
+} */
+
+ /* right hand side menu bar (assignment) */
+ #rightmenu {
+     background-color: #99CCCC;
+     color:black;
+     position:fixed;
+     top:0px;
+     margin-top: 85px;
+     margin-left: 0px;
+     width:110px;
+     border-radius:6px;
+     padding:1px 27px 17px 27px;
+     font-size: 18px;
+     text-align:left;
+ }
+ #rightmenu a {
+     text-decoration:none;
+ }
+ #rightmenu a:link {
+     color: #6699CC;
+ }
+
+ /* visited link */
+ #rightmenu a:visited {
+     color: black;
+ }
+ #rightmenu a:hover {
+     color: yellow;
+ }

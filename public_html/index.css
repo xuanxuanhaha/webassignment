@@ -1,0 +1,162 @@
+
+body{
+    color:white;
+    font-size:20px;
+}
+
+/* background image */
+div.menuback {
+    background-color: #99CCCC;
+    position:absolute;
+    width:1440px;
+    top:0px;
+    height: 70px;
+    margin-left: 35px;
+    border-radius: 6px;
+}
+/* menu background */
+div.background {
+    position:absolute;
+    top:0px;
+    left:40px;
+    width:1448px;
+    border: 550px;
+}
+
+/* icons part */
+
+/* aurora */
+div.aurora {
+    position:absolute;
+    top:160px;
+    left:80px;
+    float:left;
+    width:250px;
+}
+div.aurora img{
+    border-radius: 50%;
+}
+
+/* balloon festival */
+div.balloon {
+    position:absolute;
+    left:780px;
+    top:150px;
+    width:230px;
+}
+div.balloon img{
+    border-radius: 50%;
+}
+
+/* floriade festival */
+div.floriade {
+    position:absolute;
+    left:1150px;
+    top:300px;
+    width:250px;
+}
+div.floriade img{
+    border-radius: 50%;
+}
+
+/* ski */
+div.ski {
+    position:absolute;
+    left:380px;
+    top:300px;
+    width:250px;
+}
+div.ski img{
+    border-radius: 50%;
+}
+
+/* enlightening festival */
+div.noodels {
+    position:absolute;
+    left:1050px;
+    top:500px;
+    width:250px;
+}
+div.noodels img{
+    border-radius: 50%;
+}
+
+/* openair film */
+div.film {
+    position:absolute;
+    left:240px;
+    top:500px;
+    width:250px;
+}
+div.film img{
+    border-radius: 50%;
+}
+
+/* my passion part */
+div.introduction {
+    background-color: #99CCCC;
+    padding: 50px 0px 50px 50px;
+    position:absolute;
+    left:40px;
+    top:730px;
+    color:black;
+    margin-left: 0px;
+    margin-right: 0px;
+    width:1398px;
+}
+
+/* right hand side menu bar */
+#rightmenu {
+    background-color: #99CCCC;
+    color:black;
+    position:fixed;
+    top:80px;
+    margin-top: 85px;
+    margin-left: 1320px;
+    width:110px;
+    border-radius:6px;
+    padding:1px 27px 17px 27px;
+    font-size: 18px;
+    text-align:left;
+}
+#rightmenu a {
+    text-decoration:none;
+}
+#rightmenu a:link {
+    color: #6699CC;
+}
+
+/* visited link */
+#rightmenu a:visited {
+    color: black;
+}
+#rightmenu a:hover {
+    color: yellow;
+}
+
+/* sitemap part in the bottom */
+#table {
+    color:black;
+    position:absolute;
+    top:1150px;
+    margin-top: 85px;
+    margin-left: 60px;
+    width:600px;
+    border-radius:6px;
+    padding:27px;
+    font-size: 18px;
+    text-align:left;
+}
+#table a {
+    text-decoration:none;
+}
+#table a:link {
+    color: #6699CC;
+}
+/* visited link */
+#table a:visited {
+    color: black;
+}
+#table a:hover {
+    color: #CCCCFF;
+}
